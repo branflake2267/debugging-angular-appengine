@@ -6,7 +6,6 @@ const path = require('path');
 
 // Settings
 const PORT = 8080;
-const HOST = '0.0.0.0';
 
 // HTML Directory of statuc resources ./html
 const htmlDirectory = path.join(__dirname, 'html');
@@ -27,8 +26,4 @@ app.get('/api/getMessage', (req, res) => {
   res.json({ message: 'The board is green!' });
 });
 
-app.listen(PORT, HOST);
-
-// Debugging
-console.log(`HTML directory is ${htmlDirectory}`);
-console.log(`Express is running on http://${HOST}:${PORT}`);
+app.listen(PORT);
