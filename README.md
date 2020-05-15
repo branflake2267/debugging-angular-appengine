@@ -48,14 +48,17 @@ The app generation is based on https://angular.io/guide/setup-local.
 * http://localhost:8080 - ./ server
 * http://localhost:8080/api - ./api server
 
-
 ### Debugging Client
-* Use the VS Code Launcher `2. Launch ng serve & Chrome`
-* http://localhost:4200 - ./ client
+The client uses a proxy to the server. [Proxy config reference](https://github.com/angular/angular-cli/blob/master/docs/documentation/stories/proxy.md).
 
+* Use the VS Code Launcher `2. Launch ng serve & Chrome`
+* http://localhost:4200 - ./ - client
+* http://localhost:4200/api - ./api - server
 
 ### Debugging with npm
-* Run `npm start` will start the express web server
+
+* From the ./server directory run `npm start` to start the express web server. 
+* From the ./client directory  run `npm start` to start the client compiler and angular debugging. 
 
 
 ## Deploy
