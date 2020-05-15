@@ -4,6 +4,8 @@ node_js:
   - "lts/*"
 
 before_install:
+  # Fetch the keys in IAM
+  # travis encrypt-file donnelson-sandbox-687eb49c0e08.json
   - openssl aes-256-cbc -K $encrypted_440e77bfda4d_key -iv $encrypted_440e77bfda4d_iv -in donnelson-sandbox-687eb49c0e08.json.enc -out donnelson-sandbox-687eb49c0e08.json -d
 
 install:
