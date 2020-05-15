@@ -67,10 +67,17 @@ The client uses a proxy to the server. [Proxy config reference](https://github.c
 
 ## Deploy
 
+The application is deployed to https://donnelson-sandbox.appspot.com.
+
+### Travis CI Deployent
+
+* [.travis.yml](https://travis-ci.org/github/branflake2267/debugging-angular-appengine) deployes the application to GAE on master commits.
+
+## Manual Deployment
+
 * Run `cd ./dist`
 * Run `gcloud app deploy`
-* OR commit and merge into master and travis-ci will deploy to Google App Engine. 
-* This deploys to: https://donnelson-sandbox.appspot.com
+
 
 ## Init Reference
 
@@ -83,7 +90,7 @@ The client uses a proxy to the server. [Proxy config reference](https://github.c
   - Download Cloud SDK CLI tools
   - Run gcloud init
 4. Create a service account for App Engine Admin for deployments. 
-  - And be sure you turn on the `Cloud Build API`.
+  - And be sure you turn on the `Cloud Build API`. [Cloud API Dash](https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview)
 
 ### app.yaml
 [app.yaml](./server/app.yaml) configures the App Engine web hosting service options. [app.yaml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
