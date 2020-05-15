@@ -71,7 +71,7 @@ The application is deployed to https://donnelson-sandbox.appspot.com.
 
 ### Travis CI Deployent
 
-* [.travis.yml](https://travis-ci.org/github/branflake2267/debugging-angular-appengine) deployes the application to GAE on master commits.
+* [.travis.yml](https://travis-ci.org/github/branflake2267/debugging-angular-appengine) deploys the application to GAE on master commits.
 
 ## Manual Deployment
 
