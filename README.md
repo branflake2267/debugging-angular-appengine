@@ -1,5 +1,9 @@
 # Part 2: Debugging Angular with App Engine Hosting
-Debugging Angular with Visual Studio Code hosted on App Engine..
+Debugging Angular with Visual Studio Code hosted on App Engine.
+
+
+[![Build Status](https://travis-ci.org/branflake2267/debugging-angular-appengine.svg?branch=master)](https://travis-ci.org/branflake2267/debugging-angular-appengine)
+
 
 ## Part 1: Debugging Angular as the Client
 Part 1 covers debugging Angular as a client application. [Check out Part 1 here](https://github.com/branflake2267/debugging-angular).
