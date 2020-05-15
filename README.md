@@ -7,7 +7,7 @@ Part 1 covers debugging Angular as a client application. [Check out Part 1 here]
 [![Debugging Video Tutorial](https://img.youtube.com/vi/H-sMmxfNxBM/0.jpg)](https://www.youtube.com/watch?v=H-sMmxfNxBM)
 
 ## Part 2: Debugging Angular as the Client & Express as the server
-Part 2 covers debugging Angular as the client with Express as the web server, which will be hosted on App Engine. 
+Part 2 takes part 1 futher. It covers debugging Angular as the client with Express as the web server, which will be hosted on App Engine. 
 
 * TODO Youtube video link
 
