@@ -76,3 +76,6 @@ The app generation is based on https://angular.io/guide/setup-local.
   - This app is Node.js & a Standard App Engine deployment.
   - Download Cloud SDK CLI tools
   - Run gcloud init
+
+### app.yml
+app.yml configures the web hosting service options. [app.yml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
