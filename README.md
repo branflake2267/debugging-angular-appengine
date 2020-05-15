@@ -78,4 +78,4 @@ The app generation is based on https://angular.io/guide/setup-local.
   - Run gcloud init
 
 ### app.yml
-app.yml configures the web hosting service options. [app.yml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
+app.yml configures the App Engine web hosting service options. [app.yml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
