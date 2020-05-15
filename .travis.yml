@@ -18,6 +18,11 @@ before_deploy:
   - rm -rf ./server
   - rm package.json package-lock.json
   - mv ./dist/* .
+  - echo '~~~~~~~~~~~~~~~~'
+  - echo '~~~~~~~~~~~~~~~~'
+  - ls
+  - echo '~~~~~~~~~~~~~~~~'
+  - echo '~~~~~~~~~~~~~~~~'
 
 deploy:
   edge: true
