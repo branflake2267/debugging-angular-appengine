@@ -1,3 +1,6 @@
+# App Engine Configuration
 
+# app.yaml reference
+# https://cloud.google.com/appengine/docs/standard/nodejs/config/appref
 
 runtime: nodejs10
