@@ -86,11 +86,11 @@ The application is deployed to https://donnelson-sandbox.appspot.com.
 1. Sign up for [Google Cloud Compute](https://console.cloud.google.com/).
 2. Create a project.
 3. Create an App Engien Application https://console.cloud.google.com/appengine/start.
-  - This app is Node.js & a Standard App Engine deployment.
-  - Download Cloud SDK CLI tools
-  - Run gcloud init
+    - This app is Node.js & a Standard App Engine deployment.
+    - Download Cloud SDK CLI tools
+    - Run gcloud init
 4. Create a service account for App Engine Admin for deployments. 
-  - And be sure you turn on the `Cloud Build API`. [Cloud API Dash](https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview)
+    - And be sure you turn on the `Cloud Build API`. [Cloud API Dash](https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview)
 
 ### app.yaml
 [app.yaml](./server/app.yaml) configures the App Engine web hosting service options. [app.yaml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
