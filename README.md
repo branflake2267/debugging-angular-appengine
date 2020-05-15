@@ -82,6 +82,8 @@ The client uses a proxy to the server. [Proxy config reference](https://github.c
   - This app is Node.js & a Standard App Engine deployment.
   - Download Cloud SDK CLI tools
   - Run gcloud init
+4. Create a service account for App Engine Admin for deployments. 
+  - And be sure you turn on the `App Engine API`
 
 ### app.yaml
 [app.yaml](./server/app.yaml) configures the App Engine web hosting service options. [app.yaml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
