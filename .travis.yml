@@ -37,5 +37,6 @@ deploy:
 # Encrypt Secure Variables
 # gem install travis
 # travis login --github-token replace_with_github_personal_token
+# travis enable
 # cd to/this/repo
 # travis encrypt-file donnelson-sandbox-687eb49c0e08.json
