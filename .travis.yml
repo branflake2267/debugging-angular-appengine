@@ -1,0 +1,40 @@
+
+language: node_js
+node_js:
+  - "lts/*"
+
+install:
+  - npm install
+
+script:
+  - npm run build
+
+before_deploy:
+  # Remove unused files and dirs
+  - rm -rf ./client
+  - rm -rf ./server
+  - rm package.json package-lock.json
+
+
+# deploy:
+#   edge: true
+#   provider: gae
+#   skip_cleanup: true
+#   keyfile: "YOUR SERVICE ACCOUNT JSON FILE"
+#   project: "donnelson-sandbox"
+
+
+
+    
+# Run Travis CLI in this repo
+# gem install travis
+
+# Delete Travis Cache
+# travis cache --com
+# travis cache --com --delete
+
+# Encrypt Secure Variables
+# gem install travis
+# travis login --github-token replace_with_github_personal_token
+# cd to/this/repo
+# travis encrypt-file donnelson-sandbox-687eb49c0e08.json
