@@ -63,11 +63,10 @@ The client uses a proxy to the server. [Proxy config reference](https://github.c
 
 ## Deploy
 
-
-
-### Deploy Application
-
-
+* Run `cd ./dist`
+* Run `gcloud app deploy`
+* OR commit and merge into master and travis-ci will deploy to Google App Engine. 
+* This deploys to: https://donnelson-sandbox.appspot.com
 
 ## Init Reference
 
@@ -82,3 +81,5 @@ The client uses a proxy to the server. [Proxy config reference](https://github.c
 
 ### app.yml
 app.yml configures the App Engine web hosting service options. [app.yml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
+
+

@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - "lts/*"
 
+before_install:
+  - openssl aes-256-cbc -K $encrypted_440e77bfda4d_key -iv $encrypted_440e77bfda4d_iv -in donnelson-sandbox-687eb49c0e08.json.enc -out donnelson-sandbox-687eb49c0e08.json -d
+
 install:
   - npm install
 
@@ -14,18 +17,16 @@ before_deploy:
   - rm -rf ./client
   - rm -rf ./server
   - rm package.json package-lock.json
+  - mv ./dist/* .
 
+deploy:
+  edge: true
+  provider: gae
+  skip_cleanup: true
+  keyfile: "donnelson-sandbox-687eb49c0e08.json"
+  project: "donnelson-sandbox"
 
-# deploy:
-#   edge: true
-#   provider: gae
-#   skip_cleanup: true
-#   keyfile: "YOUR SERVICE ACCOUNT JSON FILE"
-#   project: "donnelson-sandbox"
-
-
-
-    
+ 
 # Run Travis CLI in this repo
 # gem install travis
 
