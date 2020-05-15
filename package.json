@@ -1,7 +1,7 @@
 {
   "name": "debugging-angular-appengine",
   "version": "1.0.0",
-  "description": "This project is using an Express server with simple html webpack client front end.",
+  "description": "This project is using an Angular application hosted on App engine with Express web server.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/branflake2267/debugging-angular-appengine.git"
