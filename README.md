@@ -1,23 +1,15 @@
-# Part 2: Debugging Angular with App Engine Hosting
+# Debugging Angular with App Engine Hosting
 Debugging Angular with Visual Studio Code hosted on App Engine.
-
 
 [![Build Status](https://travis-ci.org/branflake2267/debugging-angular-appengine.svg?branch=master)](https://travis-ci.org/branflake2267/debugging-angular-appengine)
 
 
-## Part 1: Debugging Angular as the Client
-Part 1 covers debugging Angular as a client application. [Check out Part 1 here](https://github.com/branflake2267/debugging-angular).
-
-[![Debugging Video Tutorial](https://img.youtube.com/vi/H-sMmxfNxBM/0.jpg)](https://www.youtube.com/watch?v=H-sMmxfNxBM)
-
-## Part 2: Debugging Angular as the Client & Express as the server
-Part 2 takes part 1 futher. It covers debugging Angular as the client with Express as the web server, which will be hosted on App Engine. 
+## Debugging Angular as the Client & Express as the server
+This covers debugging Angular as the client with Express as the web server, which will be hosted on App Engine. 
 
 * TODO Youtube video link
 
 ## Project Configuration
-This is the part 2 configuraiton. 
-
 | Setting | Value |
 | --- | --- |
 | Purpose | Debugging with VS Code using a simple Angular project |
@@ -31,7 +23,6 @@ This is the part 2 configuraiton.
 | License | GPL v3 |
 | Tutorial | [Part 1 Youtube Tutorial](https://www.youtube.com/watch?v=H-sMmxfNxBM) Only Client |
 | Tutorial | [Part 2 Youtube Tutorial](https://www.youtube.com/watch?v=xxxxxxxxx) Client & Server|
-
 
 
 ## Generate Application
