@@ -83,7 +83,7 @@ The client uses a proxy to the server. [Proxy config reference](https://github.c
   - Download Cloud SDK CLI tools
   - Run gcloud init
 
-### app.yml
-app.yml configures the App Engine web hosting service options. [app.yml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
+### app.yaml
+[app.yaml](./server/app.yaml) configures the App Engine web hosting service options. [app.yaml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
 
 

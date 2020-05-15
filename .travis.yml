@@ -17,12 +17,8 @@ before_deploy:
   - rm -rf ./client
   - rm -rf ./server
   - rm package.json package-lock.json
+  # Move the dist directory to root
   - mv ./dist/* .
-  - echo '~~~~~~~~~~~~~~~~'
-  - echo '~~~~~~~~~~~~~~~~'
-  - ls
-  - echo '~~~~~~~~~~~~~~~~'
-  - echo '~~~~~~~~~~~~~~~~'
 
 deploy:
   edge: true
