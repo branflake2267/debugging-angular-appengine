@@ -7,7 +7,7 @@ Debugging Angular with Visual Studio Code hosted on App Engine.
 ## Debugging Angular as the Client & Express as the server
 This covers debugging Angular as the client with Express as the web server, which will be hosted on App Engine. 
 
-* TODO Youtube video link
+[![Debugging Video Tutorial](https://img.youtube.com/vi/oT9jTNL56S0/0.jpg)](https://www.youtube.com/watch?v=oT9jTNL56S0)
 
 ## Project Configuration
 | Setting | Value |
@@ -21,8 +21,7 @@ This covers debugging Angular as the client with Express as the web server, whic
 | Architecture | npm/node |
 | IDE | Visual Studio Code |
 | License | GPL v3 |
-| Tutorial | [Part 1 Youtube Tutorial](https://www.youtube.com/watch?v=H-sMmxfNxBM) Only Client |
-| Tutorial | [Part 2 Youtube Tutorial](https://www.youtube.com/watch?v=xxxxxxxxx) Client & Server|
+| Tutorial | [Youtube Tutorial](https://www.youtube.com/watch?v=oT9jTNL56S0) Client & Server|
 
 
 ## Generate Application
