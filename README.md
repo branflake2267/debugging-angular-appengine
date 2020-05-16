@@ -82,6 +82,7 @@ The app generation is based on https://angular.io/guide/setup-local.
 
 
 ### Cloud Tools CLI Installation
+
 1. Sign up for [Google Cloud Compute](https://console.cloud.google.com/).
 2. Create a GCP project.
 3. Create an App Engine Application https://console.cloud.google.com/appengine/start.
@@ -91,6 +92,8 @@ The app generation is based on https://angular.io/guide/setup-local.
 4. Create a service account for App Engine Admin for deployments. 
     - And be sure you add the `Cloud Build API` permissions to the services account. 
     - And turn on the [Cloud API Dash](https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview) for the project.
+5. Create an App Engine project in the console https://console.cloud.google.com/appengine.
+    - After you create an app engine project, follow the App Engine getting strted instructions on how to install Cloud CLI.
 
 ### app.yaml
 [app.yaml](./server/app.yaml) configures the App Engine web hosting service options. [app.yaml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
