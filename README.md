@@ -70,17 +70,27 @@ The application is deployed to https://donnelson-sandbox.appspot.com.
 
 
 ## Init Reference
+These are the instructions I used to generate angular and configure App Engine on GCP. 
+
+### Generate Angular Application
+The app generation is based on https://angular.io/guide/setup-local.
+
+* Run `npm install -g @angular/cli` - Install the app generator CLI tool.
+* Run `ng new client` - Generate an application, I named it `client`.
+* Run `cd client` - Change directory to the app.
+* Run `ng serve --open` - Start the compiler, web server and open Chrome. 
+
 
 ### Cloud Tools CLI Installation
-
 1. Sign up for [Google Cloud Compute](https://console.cloud.google.com/).
-2. Create a project.
-3. Create an App Engien Application https://console.cloud.google.com/appengine/start.
+2. Create a GCP project.
+3. Create an App Engine Application https://console.cloud.google.com/appengine/start.
     - This app is Node.js & a Standard App Engine deployment.
     - Download Cloud SDK CLI tools
     - Run gcloud init
 4. Create a service account for App Engine Admin for deployments. 
-    - And be sure you turn on the `Cloud Build API`. [Cloud API Dash](https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview)
+    - And be sure you add the `Cloud Build API` permissions to the services account. 
+    - And turn on the [Cloud API Dash](https://console.developers.google.com/apis/api/cloudbuild.googleapis.com/overview) for the project.
 
 ### app.yaml
 [app.yaml](./server/app.yaml) configures the App Engine web hosting service options. [app.yaml reference](https://cloud.google.com/appengine/docs/standard/nodejs/config/appref)
