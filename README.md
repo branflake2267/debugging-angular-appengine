@@ -21,7 +21,7 @@ This covers debugging Angular as the client with Express as the web server, whic
 | Architecture | npm/node |
 | IDE | Visual Studio Code |
 | License | GPL v3 |
-| Tutorial | [Youtube Tutorial](https://www.youtube.com/watch?v=oT9jTNL56S0) Client & Server|
+| Tutorial | [Youtube Tutorial](https://www.youtube.com/watch?v=oT9jTNL56S0)|
 
 
 ## Generate Application
